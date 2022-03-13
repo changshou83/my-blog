@@ -1,3 +1,3 @@
-const MOOCSideBar = [{ text: 'MOOC', children: ['/index.md'] }];
+const MOOCSideBar = [{ text: 'MOOC' }];
 
 export { MOOCSideBar };

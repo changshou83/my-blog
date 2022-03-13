@@ -1,7 +1,6 @@
 const rustSideBar = [
   {
     text: 'Rust入门',
-    collapsable: true,
     link: '/rust/getting-started/introduced',
     children: [
       { text: 'Hello World', link: '/rust/getting-started/00helloworld' },
@@ -19,15 +18,15 @@ const rustSideBar = [
         link: '/rust/getting-started/10generic-trait-lifecycle',
       },
       { text: '测试', link: '/rust/getting-started/11test' },
-      { text: 'Rust & FP', link: '/rust/getting-started/12Rust & FP' },
-      { text: 'More Cargo', link: '/rust/getting-started/13more Cargo' },
+      { text: 'FP', link: '/rust/getting-started/12FP' },
+      { text: 'More Cargo', link: '/rust/getting-started/13moreCargo' },
       { text: '智能指针', link: '/rust/getting-started/14smart-Pointer' },
       {
         text: '并发',
-        link: '/rust/getting-started/15Concurrency & parallelism',
+        link: '/rust/getting-started/15Concurrency',
       },
 
-      { text: 'Rust & OOP', link: '/rust/getting-started/16Rust & OOP' },
+      { text: 'OOP', link: '/rust/getting-started/16OOP' },
       { text: '模式', link: '/rust/getting-started/17Pattern' },
       { text: '高级特性', link: '/rust/getting-started/18AdvancedFeatures' },
     ],
