@@ -1,5 +1,3 @@
-## 外部代码
+# 学习路线
 
-```js
-let name = 'javascript';
-```
+1. [Rust 入门](./getting-started/introduced.md)

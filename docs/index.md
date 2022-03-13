@@ -1,17 +1,10 @@
 ---
 home: true
 heroImage: /images/icon.jpg
-heroAlt: Logo image
-heroText: Hero Title
-tagline: Hero subtitle
-actionText: Get Started
-actionLink: /example
-features:
-    - title: Simplicity First
-      details: Minimal setup with markdown-centered project structure helps you focus on writing.
-    - title: Vue-Powered
-      details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-    - title: Performant
-      details: VitePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2019-present Evan You
+heroAlt: Avatar
+heroText: Changshou83‘s Blog
+tagline: 学海无涯，回头是岸(bushi)
+actionText: Read More →
+actionLink: /fe-basic/index
+footer: MIT Licensed | Copyright © 2019-present Changshou83
 ---
