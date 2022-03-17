@@ -1,6 +1,7 @@
 import { rustSideBar } from './content/rust';
 import { feBasicSideBar } from './content/feBasic';
 import { MOOCSideBar } from './content/MOOC';
+import { essaySideBar } from './content/essay';
 
 module.exports = {
   // deploy site at https://username.github.io/my-blog/，default: '/'
@@ -17,6 +18,7 @@ module.exports = {
       { text: 'Rust', link: '/rust/index' },
       { text: '前端基础', link: '/fe-basic/index' },
       { text: '网课笔记', link: '/MOOC/index' },
+      { text: '杂文', link: '/essay/美化PowerShell' },
       { text: 'About', link: '/about' },
       {
         text: 'Github',
@@ -27,6 +29,7 @@ module.exports = {
       '/rust/': rustSideBar,
       '/fe-basic/': feBasicSideBar,
       '/MOOC/': MOOCSideBar,
+      '/essay/': essaySideBar,
       '/': [{ text: '首页', link: '/' }],
     },
   },
