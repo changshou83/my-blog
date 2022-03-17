@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a,a as o}from"./app.eb4f4a2c.js";const f='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"about.md"}',s={},r=o("p",null,"Something about me",-1),n=[r];function c(_,i,d,p,l,u){return a(),e("div",null,n)}var h=t(s,[["render",c]]);export{f as __pageData,h as default};
