@@ -2,6 +2,7 @@ const rustSideBar = [
   {
     text: 'Rust入门',
     link: '/rust/getting-started/introduced',
+    collapsable: true,
     children: [
       { text: 'Hello World', link: '/rust/getting-started/00helloworld' },
       { text: 'Hello Cargo', link: '/rust/getting-started/01helloCargo' },
