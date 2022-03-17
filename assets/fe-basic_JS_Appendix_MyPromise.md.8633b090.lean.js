@@ -1,0 +1,1 @@
+import{_ as n,c as s,o as a,a as p}from"./app.3646c367.js";const d='{"title":"\u53C2\u8003\u94FE\u63A5","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/JS/Appendix/MyPromise.md"}',t={},o=p("",5),e=[o];function c(l,u,r,k,i,b){return a(),s("div",null,e)}var f=n(t,[["render",c]]);export{d as __pageData,f as default};
