@@ -15,6 +15,23 @@ const MOOCSideBar = [
       { text: '装饰器', link: '/MOOC/TypeScript入门/decorator' },
     ],
   },
+  {
+    text: '学习如何学习',
+    link: '/MOOC/how-to-learn/index',
+    collapsable: true,
+    children: [
+      { text: '集中与发散', link: '/MOOC/how-to-learn/what-is-learning' },
+      { text: '组块', link: '/MOOC/how-to-learn/chunking' },
+      {
+        text: '拖延与学习',
+        link: '/MOOC/how-to-learn/procrastination-memory',
+      },
+      {
+        text: '复兴式学习',
+        link: '/MOOC/how-to-learn/renaissance-learning',
+      },
+    ],
+  },
 ];
 
 export { MOOCSideBar };
