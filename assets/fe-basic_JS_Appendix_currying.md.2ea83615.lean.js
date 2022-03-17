@@ -1,1 +1,0 @@
-import{_ as n,c as s,o as a,a as p}from"./app.3646c367.js";const f='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/JS/Appendix/currying.md"}',t={},o=p("",1),c=[o];function e(u,l,r,k,i,b){return a(),s("div",null,c)}var d=n(t,[["render",e]]);export{f as __pageData,d as default};
