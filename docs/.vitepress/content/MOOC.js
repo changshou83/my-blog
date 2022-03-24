@@ -16,7 +16,7 @@ const MOOCSideBar = [
     ],
   },
   {
-    text: '学习如何学习',
+    text: 'Learning how to learn',
     link: '/MOOC/how-to-learn/index',
     collapsable: true,
     children: [
@@ -30,6 +30,58 @@ const MOOCSideBar = [
         text: '复兴式学习',
         link: '/MOOC/how-to-learn/renaissance-learning',
       },
+    ],
+  },
+  {
+    text: 'Introduction to Psychology',
+    link: '/MOOC/IntroductiontoPsychology/01概述',
+    collapsable: true,
+    children: [
+      { text: '概述', link: '/MOOC/IntroductiontoPsychology/01概述' },
+      { text: '发展', link: '/MOOC/IntroductiontoPsychology/02发展' },
+      { text: '认知过程', link: '/MOOC/IntroductiontoPsychology/03认知过程' },
+      { text: '动机过程', link: '/MOOC/IntroductiontoPsychology/04动机过程' },
+      { text: '情绪过程', link: '/MOOC/IntroductiontoPsychology/05情绪过程' },
+      {
+        text: '人格心理学',
+        link: '/MOOC/IntroductiontoPsychology/06人格心理学',
+      },
+      {
+        text: '社会心理学',
+        link: '/MOOC/IntroductiontoPsychology/07社会心理学',
+      },
+    ],
+  },
+  {
+    text: 'Docker for Beginner',
+    link: '/MOOC/Docker for Beginner/index',
+    collapsable: true,
+    children: [
+      { text: '命令', link: '/MOOC/Docker for Beginner/01commands' },
+      { text: 'run', link: '/MOOC/Docker for Beginner/02dockerrun' },
+      { text: '映像', link: '/MOOC/Docker for Beginner/03images' },
+      { text: 'Docker Compose', link: '/MOOC/Docker for Beginner/04compose' },
+      {
+        text: 'Docker 引擎与存储系统',
+        link: '/MOOC/Docker for Beginner/05dockerengine,storage',
+      },
+      {
+        text: 'Docker 网络',
+        link: '/MOOC/Docker for Beginner/06dockernetwork',
+      },
+      {
+        text: 'Docker 码头',
+        link: '/MOOC/Docker for Beginner/07dockerregistry',
+      },
+      {
+        text: 'Docker On Windows',
+        link: '/MOOC/Docker for Beginner/08dockeronwindows',
+      },
+      {
+        text: 'Docker 容器集运站',
+        link: '/MOOC/Docker for Beginner/09容器集运站',
+      },
+      { text: '小结', link: '/MOOC/Docker for Beginner/小结' },
     ],
   },
 ];

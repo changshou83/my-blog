@@ -2,6 +2,7 @@ import { rustSideBar } from './content/rust';
 import { feBasicSideBar } from './content/feBasic';
 import { MOOCSideBar } from './content/MOOC';
 import { essaySideBar } from './content/essay';
+import { vueSideBar } from './content/learnvue';
 
 module.exports = {
   // deploy site at https://username.github.io/my-blog/，default: '/'
@@ -18,6 +19,7 @@ module.exports = {
       { text: 'Rust', link: '/rust/index' },
       { text: '前端基础', link: '/fe-basic/index' },
       { text: '网课笔记', link: '/MOOC/index' },
+      { text: 'Vue', link: '/vue/docs/route' },
       { text: '杂文', link: '/essay/美化PowerShell' },
       { text: 'About', link: '/about' },
       {
@@ -30,6 +32,7 @@ module.exports = {
       '/fe-basic/': feBasicSideBar,
       '/MOOC/': MOOCSideBar,
       '/essay/': essaySideBar,
+      '/vue/': vueSideBar,
       '/': [{ text: '首页', link: '/' }],
     },
   },
