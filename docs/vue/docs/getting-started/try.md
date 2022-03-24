@@ -7,7 +7,7 @@
 - lifecycle:onMounted(() => {}),
 - template refs:const p = ref(null);`<p ref="p">content</p>`,使用`p.value.textContent`访问其内容,
 - `watch([ref, computed, () => reactiveObj.count, () => refValue.value], (newValue) => {})`,
-- components:<ChildComp />,
+- components:`<ChildComp />`,
   - props:defineProps({}),
   - emits:defineEmits([]),
   - slots:`<solt>child content</solt>`
