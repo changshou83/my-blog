@@ -6,12 +6,12 @@
 
 ## 安装 windows terminal
 
-1. 不能上 store，去 github 下的，因为官方开源了
+1. 不能上 store，去 github 下的，因为官方开源了，去 microsoft/terminal 的官方仓库下所需的版本，然后点击安装
 2. 因为想要设置默认命令行，但是因为只有 windows11 才有，所以放弃
 
 ## 安装 powershell
 
-1. 去 microsoft/terminal 的官方仓库下在 msi 的版本，然后点击安装
+1. 去 PowerShell/PowerShell 的官方仓库下所需要的版本的 msi 文件，然后点击安装
 2. 在 windows terminal 的配置文件中添加 powershell，guid 是唯一标识符，去查个网站生成一个
 3. 然后记得在 windows terminal 设置中指向 exe 文件
 4. 图标在安装文件夹下的 asset 里
