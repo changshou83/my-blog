@@ -1,1 +1,0 @@
-import{_ as t,c as e,o as a}from"./app.0c9cf79b.js";const l='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"rust/getting-started/01helloCargo.md"}',r={};function o(s,n,c,_,i,p){return a(),e("div")}var f=t(r,[["render",o]]);export{l as __pageData,f as default};
