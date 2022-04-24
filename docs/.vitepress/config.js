@@ -1,4 +1,5 @@
 import { rustSideBar } from './content/rust';
+import { goSideBar } from './content/go';
 import { feBasicSideBar } from './content/feBasic';
 import { MOOCSideBar } from './content/MOOC';
 import { essaySideBar } from './content/essay';
@@ -17,6 +18,7 @@ module.exports = {
     nav: [
       { text: '概述', link: '/' },
       { text: 'Rust', link: '/rust/index' },
+      { text: 'Go', link: '/go/index' },
       { text: '前端基础', link: '/fe-basic/index' },
       { text: '网课笔记', link: '/MOOC/index' },
       { text: 'Vue', link: '/vue/docs/route' },
@@ -29,6 +31,7 @@ module.exports = {
     ],
     sidebar: {
       '/rust/': rustSideBar,
+      '/go/': goSideBar,
       '/fe-basic/': feBasicSideBar,
       '/MOOC/': MOOCSideBar,
       '/essay/': essaySideBar,
