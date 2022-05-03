@@ -1,1 +1,0 @@
-import{_ as n,c as s,o as a,a as p}from"./app.4b84d482.js";const d='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/JS/Appendix/inheritance.md"}',t={},e=p("",1),o=[e];function c(r,l,i,u,k,b){return a(),s("div",null,o)}var m=n(t,[["render",c]]);export{d as __pageData,m as default};

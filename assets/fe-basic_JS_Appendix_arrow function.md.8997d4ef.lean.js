@@ -1,0 +1,1 @@
+import{_ as n,c as s,o as a,a as p}from"./app.a51640e9.js";const _='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/JS/Appendix/arrow function.md"}',t={},o=p("",4),c=[o];function e(l,u,i,k,r,d){return a(),s("div",null,c)}var b=n(t,[["render",e]]);export{_ as __pageData,b as default};

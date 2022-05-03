@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as t,a as _}from"./app.a51640e9.js";const f='{"title":"\u5AC9\u5992\u5FC3\u7406","description":"","frontmatter":{},"headers":[],"relativePath":"MOOC/IntroductiontoPsychology/07\u793E\u4F1A\u5FC3\u7406\u5B66.md"}',e={},u=_("",9),o=[u];function a(n,c,d,r,s,h){return t(),i("div",null,o)}var x=l(e,[["render",a]]);export{f as __pageData,x as default};

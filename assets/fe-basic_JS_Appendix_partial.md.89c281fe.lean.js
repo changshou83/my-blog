@@ -1,1 +1,0 @@
-import{_ as n,c as s,o as a,a as p}from"./app.4b84d482.js";const m='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/JS/Appendix/partial.md"}',t={},o=p("",1),e=[o];function c(l,u,r,k,i,b){return a(),s("div",null,e)}var f=n(t,[["render",c]]);export{m as __pageData,f as default};

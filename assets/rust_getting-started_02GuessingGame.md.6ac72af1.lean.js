@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.a51640e9.js";const l='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"rust/getting-started/00helloworld.md"}',a={};function o(s,n,c,_,i,d){return r(),t("div")}var f=e(a,[["render",o]]);export{l as __pageData,f as default};
