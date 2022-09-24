@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as a,a as t}from"./app.6117d463.js";const b='{"title":"Debug UI","description":"","frontmatter":{},"headers":[{"level":2,"title":"Library","slug":"library"}],"relativePath":"MOOC/threejs-journey/01_Basics/DebugUI.md"}',l={},i=t("",4),o=[i];function n(s,p,u,_,c,g){return a(),r("div",null,o)}var d=e(l,[["render",n]]);export{b as __pageData,d as default};
