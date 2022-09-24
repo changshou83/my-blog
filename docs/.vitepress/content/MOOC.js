@@ -33,6 +33,18 @@ const MOOCSideBar = [
     ],
   },
   {
+    text: 'Games 101',
+    link: '/MOOC/Games101/01_overview',
+    collapsable: true,
+    children: [
+      { text: '绪论', link: '/MOOC/Games101/01_overview' },
+      { text: '线性代数', link: '/MOOC/Games101/02_review-linear-algebra' },
+      { text: '变换', link: '/MOOC/Games101/03-04_transformation' },
+      { text: '光栅化', link: '/MOOC/Games101/05-06_rasterization' },
+      { text: '着色', link: '/MOOC/Games101/07-09_shading' },
+    ],
+  },
+  {
     text: 'Introduction to Psychology',
     link: '/MOOC/IntroductiontoPsychology/01概述',
     collapsable: true,
