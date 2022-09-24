@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a as o}from"./app.6117d463.js";const m='{"title":"content","description":"","frontmatter":{},"headers":[{"level":2,"title":"content","slug":"content"}],"relativePath":"MOOC/index.md"}',r={},n=o("",2),i=[n];function l(c,s,_,h,d,f){return a(),t("div",null,i)}var u=e(r,[["render",l]]);export{m as __pageData,u as default};
