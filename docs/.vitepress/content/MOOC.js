@@ -1,3 +1,5 @@
+const eola = num => '/MOOC/essential-of-linear-algebra/chapter'+num;
+
 const MOOCSideBar = [
   {
     text: 'TypeScript入门',
@@ -42,6 +44,24 @@ const MOOCSideBar = [
       { text: '变换', link: '/MOOC/Games101/03-04_transformation' },
       { text: '光栅化', link: '/MOOC/Games101/05-06_rasterization' },
       { text: '着色', link: '/MOOC/Games101/07-09_shading' },
+    ],
+  },
+  {
+    text: 'Essential of Linear Algebra',
+    link: eola(1),
+    collapsable: true,
+    children: [
+      { text: '向量究竟是什么？', link: eola(1) },
+      { text: '线性组合，基向量', link: eola(2) },
+      { text: '线性变换及矩阵', link: eola(3) },
+      { text: '以矩阵乘法的形式理解组合变换', link: eola(4) },
+      { text: '行列式', link: eola(5) },
+      { text: '逆矩阵，列空间与零空间', link: eola(6) },
+      { text: '点积与对偶性', link: eola(7) },
+      { text: '叉乘', link: eola(8) },
+      { text: '基变换', link: eola(9) },
+      { text: '特征向量与特征值', link: eola(10) },
+      { text: '抽象向量空间', link: eola(11) }
     ],
   },
   {
