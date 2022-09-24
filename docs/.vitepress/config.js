@@ -46,4 +46,5 @@ module.exports = {
     // markdown-it-toc 的选项
     toc: { includeLevel: [1, 2, 3] },
   },
+  ignoreDeadLinks: true,
 };
