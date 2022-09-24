@@ -67,7 +67,7 @@ const MOOCSideBar = [
   },
   {
     text: 'Three.js Journey',
-    link: threejsDir('links'),
+    link: threejsDir('index'),
     collapsable: true,
     children: [
       { text: '基础篇绪论', link: threejsDir('01_Basics/Index') },
