@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as e,a as t}from"./app.efa06147.js";const f='{"title":"\u590D\u4E60\u7EBF\u6027\u4EE3\u6570","description":"","frontmatter":{},"headers":[],"relativePath":"MOOC/Games101/02_review-linear-algebra.md"}',a={},r=t("",2),_=[r];function o(n,s,u,c,p,d){return e(),i("div",null,_)}var m=l(a,[["render",o]]);export{f as __pageData,m as default};

@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as a,a as t}from"./app.efa06147.js";const _='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"essay/resources.md"}',l={},n=t("",1),o=[n];function i(h,p,f,s,m,v){return a(),r("div",null,o)}var g=e(l,[["render",i]]);export{_ as __pageData,g as default};
