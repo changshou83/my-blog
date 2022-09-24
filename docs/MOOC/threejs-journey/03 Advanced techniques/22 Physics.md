@@ -1,0 +1,23 @@
+# Physics
+
+- we
+	- create a physics world
+	- create a three.js 3d world
+	- add an object to the three.js world, we also add one in the physics world
+	- on each frame,we let the physics world update ifself and we update the three.js world accordingly
+- library
+	- 3d
+		- ammo.js（最常使用）
+		- cannon.js（本课使用）
+		- oimo.js
+	- 2d
+		- matter.js
+		- p2.js
+		- planck.js
+		- box2d.js
+- 创造物理世界
+	- `new CANNON.World()`
+	- `new`
+- 创建可接触的材料
+- 施加力
+	- 

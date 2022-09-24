@@ -1,4 +1,5 @@
 const eola = num => '/MOOC/essential-of-linear-algebra/chapter'+num;
+const threejsDir = subdir => '/MOOC/threejs-journey/'+subdir;
 
 const MOOCSideBar = [
   {
@@ -35,18 +36,6 @@ const MOOCSideBar = [
     ],
   },
   {
-    text: 'Games 101',
-    link: '/MOOC/Games101/01_overview',
-    collapsable: true,
-    children: [
-      { text: '绪论', link: '/MOOC/Games101/01_overview' },
-      { text: '线性代数', link: '/MOOC/Games101/02_review-linear-algebra' },
-      { text: '变换', link: '/MOOC/Games101/03-04_transformation' },
-      { text: '光栅化', link: '/MOOC/Games101/05-06_rasterization' },
-      { text: '着色', link: '/MOOC/Games101/07-09_shading' },
-    ],
-  },
-  {
     text: 'Essential of Linear Algebra',
     link: eola(1),
     collapsable: true,
@@ -62,6 +51,44 @@ const MOOCSideBar = [
       { text: '基变换', link: eola(9) },
       { text: '特征向量与特征值', link: eola(10) },
       { text: '抽象向量空间', link: eola(11) }
+    ],
+  },
+  {
+    text: 'Games 101',
+    link: '/MOOC/Games101/01_overview',
+    collapsable: true,
+    children: [
+      { text: '绪论', link: '/MOOC/Games101/01_overview' },
+      { text: '线性代数', link: '/MOOC/Games101/02_review-linear-algebra' },
+      { text: '变换', link: '/MOOC/Games101/03-04_transformation' },
+      { text: '光栅化', link: '/MOOC/Games101/05-06_rasterization' },
+      { text: '着色', link: '/MOOC/Games101/07-09_shading' },
+    ],
+  },
+  {
+    text: 'Three.js Journey',
+    link: threejsDir('links'),
+    collapsable: true,
+    children: [
+      { text: '基础篇绪论', link: threejsDir('01_Basics/Index') },
+      { text: '场景', link: threejsDir('01_Basics/Scene') },
+      { text: '工程化', link: threejsDir('01_Basics/Vite') },
+      { text: '变换', link: threejsDir('01_Basics/Transform-Objects') },
+      { text: '动画', link: threejsDir('01_Basics/Animations') },
+      { text: '相机与操控', link: threejsDir('01_Basics/Cameras-and-Controls') },
+      { text: '全屏与窗口缩放', link: threejsDir('01_Basics/Fullscreen-and-Resizing') },
+      { text: '几何', link: threejsDir('01_Basics/Geometries') },
+      { text: 'DebugUI', link: threejsDir('01_Basics/DebugUI') },
+      { text: '纹理', link: threejsDir('01_Basics/Textures') },
+      { text: '材质', link: threejsDir('01_Basics/Material') },
+      { text: '部署到Vercel', link: threejsDir('01_Basics/Deploy-to-Vercel') },
+      { text: '经典技术篇绪论', link: threejsDir('02_Classic-techniques/Index') },
+      { text: '光源', link: threejsDir('02_Classic-techniques/Lights') },
+      { text: '阴影', link: threejsDir('02_Classic-techniques/Shadows') },
+      { text: '射线', link: threejsDir('02_Classic-techniques/Raycast') },
+      { text: '基于滚动的动画', link: threejsDir('02_Classic-techniques/Scroll-Based-Animation') },
+      { text: '进阶技术篇绪论', link: threejsDir('03_Advanced-techniques/Index') },
+      { text: '大型项目的代码结构', link: threejsDir('03_Advanced-techniques/Code-Structuring-for-Bigger-Projects') },
     ],
   },
   {
