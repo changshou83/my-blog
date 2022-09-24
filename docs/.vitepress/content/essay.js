@@ -11,6 +11,18 @@ const essaySideBar = [
     text: 'JavaScript函数式编程(RxJS入门)',
     link: '/essay/JavaScript函数式编程(RxJS入门)',
   },
+  {
+    text: '各种linter',
+    link: '/essay/各种linter',
+  },
+  {
+    text: 'tao of node',
+    link: '/essay/tao-of-node',
+  },
+  {
+    text: 'JS & Node 的最佳测试实践',
+    link: '/essay/Node的最佳测试实践',
+  },
 ];
 
 export { essaySideBar };
