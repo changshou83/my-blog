@@ -1,1 +1,0 @@
-import{_ as n,c as s,o as a,a as p}from"./app.d75e9398.js";const d='{"title":"\u8BFE\u7A0B\u5185\u5BB9","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/JS/error-handling.md"}',t={},o=p("",5),c=[o];function e(l,u,i,r,k,m){return a(),s("div",null,c)}var f=n(t,[["render",e]]);export{d as __pageData,f as default};
