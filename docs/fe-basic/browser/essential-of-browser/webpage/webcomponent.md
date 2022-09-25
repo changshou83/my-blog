@@ -1,0 +1,18 @@
+- WebComponent
+	- 是一套技术的组合，能提供给开发者组件化开发的能力
+	- 组件化
+		- 对内高内聚，对外低耦合
+		- 阻碍组件化的因素：CSS和DOM，因为两者是全局作用且可修改的
+- 提供对局部视图的封装能力，使得CSS，DOM和JS运行在局部环境中，使其不会影响到全局
+- WebComponent如何实现组件化
+	- Custom Elements
+	- Shadow DOM
+	- HTML Templates
+	- 过程
+		- 通过template标签定义模板，css和JS
+		- 定义WebComponent的组件类
+			- 获取组件模板
+			- 创建`Shadow DOM`结点
+			- 将模板添加到`Shadow DOM`
+		- 通过`CustomElements.define`方法定义组件
+	- 注意：影子 DOM 的 JavaScript 脚本是不会被隔离的，因为 JavaScript 语言本身已经可以很好地实现组件化了

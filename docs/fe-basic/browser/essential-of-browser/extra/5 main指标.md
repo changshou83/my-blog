@@ -1,0 +1,20 @@
+- Main 指标记录渲染主线上所执行的全部任务，以及每个任务的详细执行过程
+- 分析页面加载过程
+	- 导航阶段(发送网络请求->接受响应头->触发DOM事件->接收响应体)
+		- 主要是从网络进程接收 HTML 响应头和 HTML 响应体
+		- 该任务的第一个子过程就是 Send request，该过程表示网络请求已被发送。
+		- 然后该任务进入了等待状态。
+		- 接着由网络进程负责下载资源，当接收到响应头的时候，该任务便执行 Receive Respone 过程，该过程表示接收到 HTTP 的响应头了。接着执行 DOM 事件：pagehide、visibilitychange 和 unload 等事件，如果你注册了这些事件的回调函数，那么这些回调函数会依次在该任务中被调用。
+		- 这些事件被处理完成之后，那么接下来就接收 HTML 数据了，这体现在了 Recive Data 过程，Recive Data 过程表示请求的数据已被接收，如果 HTML 数据过多，会存在多个 Receive Data 过程
+	- 解析HTML(执行JS脚本->编译->执行->生成新DOM->触发DOM事件->计算样式)
+		- 在 ParserHTML 的过程中，如果解析到了 script 标签，那么便进入了脚本执行过程，也就是 Evalute Script。
+		- 要执行一段脚本我们需要首先编译该脚本，于是在 Evalute Script 过程中，先进入了脚本编译过程，也就是Complie Script。
+		- 脚本编译好之后，就进入程序执行过程，执行全局代码时，V8 会先构造一个 anonymous 过程，在执行 anonymous 过程中，会调用 setNewArea 过程，setNewArea 过程中又调用了 createElement，由于之后调用了 document.append 方法，该方法会触发 DOM 内容的修改，所以又强制执行了 ParserHTML 过程生成的新的 DOM。
+		- DOM 生成完成之后，会触发相关的 DOM 事件，比如典型的 DOMContentLoaded，还有 readyStateChanged
+		- DOM 事件触发之后，ParserHTML 过程继续计算样式表，也就是 Reculate Style，这就是生成 CSSOM 的过程
+	- 生成可显示位图阶段(布局->分层->绘制->合成)
+		- 需要经历布局 (Layout)、分层、绘制、合成等一系列操作
+		- 首先执行布局，这个过程对应图中的 Layout。
+		- 然后更新层树 (LayerTree)，这个过程对应图中的 Update LayerTree。
+		- 有了层树之后，就需要为层树中的每一层准备绘制列表了，这个过程就称为 Paint。
+		- 准备每层的绘制列表之后，就需要利用绘制列表来生成相应图层的位图了，这个过程对应图中的 Composite Layers

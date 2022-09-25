@@ -1,0 +1,28 @@
+- XSS 全称是 Cross Site Scripting，为了与“CSS”区分开来，故简称 XSS，翻译过来就是“跨站脚本”
+- 指黑客往 HTML 文件中或者 DOM 中注入恶意脚本，从而在用户浏览页面时利用注入的恶意脚本对用户实施攻击的一种手段
+- 恶意脚本都能做哪些事情
+	- 可以窃取 Cookie 信息。通过`document.cookie`获取cookie，通过XMLHttpRequest或者Fetch发送cookie
+	- 可以监听用户行为，例如绑定键盘输入事件以在输入密码时将密码发送到恶意服务器
+	- 可以通过修改 DOM 伪造假的登录窗口，用来欺骗用户输入用户名和密码等信息
+	- 还可以在页面内生成浮窗广告
+- 恶意脚本是怎么注入的(常见的注入方式)
+	- 存储型 XSS 攻击
+		- 过程
+			- 黑客利用站点漏洞将一段恶意 JavaScript 代码提交到网站的数据库中
+			- 用户向网站请求包含了恶意 JavaScript 脚本的页面
+			- 当用户浏览该页面的时候，恶意脚本就会将用户的 Cookie 信息等数据上传到恶意服务器
+	- 反射型 XSS 攻击
+		- 过程
+			- 黑客将一段含有恶意代码的请求提交给 Web 服务器
+			- Web 服务器接收到请求时，又将恶意代码反射给了浏览器端
+		- 例如QQ邮件
+		- Web 服务器不会存储反射型 XSS 攻击的恶意脚本，这是和存储型 XSS 攻击不同的地方
+	- 基于 DOM 的 XSS 攻击
+		- 在 Web 资源传输过程或者在用户使用页面的过程中修改 Web 页面的数据
+- 如何阻止 XSS 攻击
+	- 服务器对输入脚本进行过滤或转码
+	- 充分利用 CSP
+		- 为使 CSP 可用，你需要配置你的网络服务器返回 [`Content-Security-Policy`](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Content-Security-Policy) HTTP 头部
+	- 使用 HttpOnly 属性
+		- 服务器可以将某些 Cookie 设置为 HttpOnly 标志，HttpOnly 是服务器通过 HTTP 响应头来设置的
+		- 使用 HttpOnly 标记的 Cookie 只能使用在 HTTP 请求过程中，所以无法通过 JavaScript 来读取这段 Cookie

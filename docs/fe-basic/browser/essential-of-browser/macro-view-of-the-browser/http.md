@@ -1,0 +1,6 @@
+- 客户端：构建请求->查找缓存->准备 IP 地址(DNS)和端口->等待 TCP 队列->建立 TCP 连接->发送 HTTP 请求
+- 服务器端：返回请求->断开连接->重定向(可能)
+- Cache 流程：DNS 缓存和页面资源缓存(被浏览器缓存)
+	- Cache-Control
+	- [[我自己的加餐#HTTP缓存]]
+- 使用 Cookie 来进行状态管理：Set-Cookie设置Cookie
