@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as e,a as t}from"./app.af56afdf.js";const m='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/essential-of-browser/webpage/layering-and-composing.md"}',a={},o=t("",1),r=[o];function _(s,n,c,u,d,p){return e(),i("div",null,r)}var T=l(a,[["render",_]]);export{m as __pageData,T as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as a,a as t}from"./app.635358c2.js";const _='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"essay/resources.md"}',n={},l=t("",1),o=[l];function i(h,p,f,s,m,v){return a(),r("div",null,o)}var g=e(n,[["render",i]]);export{_ as __pageData,g as default};

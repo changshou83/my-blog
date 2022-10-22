@@ -1,1 +1,0 @@
-import{_ as l,c as i,o as t,a as e}from"./app.635358c2.js";const m='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/Illustration-V8/V8-compilation-pipeline/09_runtime-environment.md"}',a={},r=e("",1),u=[r];function _(o,n,c,s,p,V){return t(),i("div",null,u)}var f=l(a,[["render",_]]);export{m as __pageData,f as default};

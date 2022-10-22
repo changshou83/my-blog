@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as e,a as t}from"./app.af56afdf.js";const m='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/essential-of-browser/macro-view-of-the-browser/chrome-infra.md"}',r={},o=t("",1),a=[o];function _(s,c,n,u,f,d){return e(),i("div",null,a)}var h=l(r,[["render",_]]);export{m as __pageData,h as default};

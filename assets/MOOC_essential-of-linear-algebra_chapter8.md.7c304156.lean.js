@@ -1,1 +1,0 @@
-import{_ as l,c as e,o as i,a as t}from"./app.635358c2.js";const v='{"title":"\u53C9\u4E58","description":"","frontmatter":{},"headers":[],"relativePath":"MOOC/essential-of-linear-algebra/chapter8.md"}',a={},o=t("",2),_=[o];function r(c,s,n,d,u,p){return i(),e("div",null,_)}var f=l(a,[["render",r]]);export{v as __pageData,f as default};

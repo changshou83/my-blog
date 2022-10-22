@@ -1,1 +1,0 @@
-import{_ as l,c as i,o as e,a as t}from"./app.635358c2.js";const f=`{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/essential-of-browser/webpage/render-pipeline'.md"}`,r={},_=t("",1),a=[_];function s(o,n,c,S,u,d){return e(),i("div",null,a)}var C=l(r,[["render",s]]);export{f as __pageData,C as default};

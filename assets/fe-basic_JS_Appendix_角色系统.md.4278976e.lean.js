@@ -1,0 +1,1 @@
+import{_ as n,c as s,o as a,a as p}from"./app.af56afdf.js";const d='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/JS/Appendix/\u89D2\u8272\u7CFB\u7EDF.md"}',t={},e=p("",1),o=[e];function c(l,u,r,i,k,m){return a(),s("div",null,o)}var _=n(t,[["render",c]]);export{d as __pageData,_ as default};

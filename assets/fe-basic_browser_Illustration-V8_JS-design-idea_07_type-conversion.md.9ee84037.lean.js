@@ -1,0 +1,1 @@
+import{_ as e,c as i,o as t,a as l}from"./app.af56afdf.js";const v='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/Illustration-V8/JS-design-idea/07_type-conversion.md"}',o={},r=l("",1),_=[r];function a(s,n,c,u,d,p){return t(),i("div",null,_)}var T=e(o,[["render",a]]);export{v as __pageData,T as default};

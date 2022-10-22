@@ -1,0 +1,1 @@
+import{_ as l,c as e,o as i,a as t}from"./app.af56afdf.js";const f='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/essential-of-browser/event-loop/message-queue.md"}',a={},s=t("",1),o=[s];function _(r,c,u,n,p,d){return i(),e("div",null,o)}var m=l(a,[["render",_]]);export{f as __pageData,m as default};
