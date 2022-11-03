@@ -27,6 +27,10 @@ const essaySideBar = [
     text: "如何在浏览器环境下动态导入图片",
     link: "/essay/如何在浏览器环境下动态导入图片",
   },
+  {
+    text: "nodejs中的peer-dependencies",
+    link: "/essay/nodejs-peer-dependencies",
+  },
 ];
 
 export { essaySideBar };
