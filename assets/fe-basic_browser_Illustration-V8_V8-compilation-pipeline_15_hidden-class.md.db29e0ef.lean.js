@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as e,a as t}from"./app.65ba7c0f.js";const h='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/Illustration-V8/V8-compilation-pipeline/15_hidden-class.md"}',_={},a=t("",1),s=[a];function o(r,c,n,u,d,p){return e(),i("div",null,s)}var m=l(_,[["render",o]]);export{h as __pageData,m as default};

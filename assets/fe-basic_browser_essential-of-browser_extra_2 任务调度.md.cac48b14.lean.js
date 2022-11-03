@@ -1,1 +1,0 @@
-import{_ as l,c as i,o as t,a as e}from"./app.af56afdf.js";const f='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/essential-of-browser/extra/2 \u4EFB\u52A1\u8C03\u5EA6.md"}',_={},a=e("",1),r=[a];function n(o,c,s,u,d,p){return t(),i("div",null,r)}var g=l(_,[["render",n]]);export{f as __pageData,g as default};

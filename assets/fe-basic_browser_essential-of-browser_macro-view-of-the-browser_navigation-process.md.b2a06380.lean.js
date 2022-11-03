@@ -1,1 +1,0 @@
-import{_ as l,c as i,o as e,a as t}from"./app.af56afdf.js";const d='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/essential-of-browser/macro-view-of-the-browser/navigation-process.md"}',o={},a=t("",1),r=[a];function n(c,s,u,T,_,P){return e(),i("div",null,r)}var p=l(o,[["render",n]]);export{d as __pageData,p as default};

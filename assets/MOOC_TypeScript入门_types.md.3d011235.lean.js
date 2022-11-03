@@ -1,1 +1,0 @@
-import{_ as n,c as s,o as a,a as p}from"./app.af56afdf.js";const d='{"title":"\u6570\u636E\u7C7B\u578B","description":"","frontmatter":{},"headers":[],"relativePath":"MOOC/TypeScript\u5165\u95E8/types.md"}',t={},e=p("",24),o=[e];function l(c,u,i,r,k,b){return a(),s("div",null,o)}var g=n(t,[["render",l]]);export{d as __pageData,g as default};

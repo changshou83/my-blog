@@ -1,0 +1,1 @@
+import{_ as i,c as l,o as e,a as t}from"./app.65ba7c0f.js";const f='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/essential-of-browser/security/csrf.md"}',o={},r=t("",1),a=[r];function s(c,S,_,u,n,C){return e(),l("div",null,a)}var d=i(o,[["render",s]]);export{f as __pageData,d as default};
