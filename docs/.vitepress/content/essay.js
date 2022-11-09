@@ -31,6 +31,10 @@ const essaySideBar = [
     text: "nodejs中的peer-dependencies",
     link: "/essay/nodejs-peer-dependencies",
   },
+  {
+    text: "2022前端状态",
+    link: "/essay/state-of-frontend-2022",
+  },
 ];
 
 export { essaySideBar };
