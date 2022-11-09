@@ -1,1 +1,0 @@
-import{_ as l,c as i,o as a,a as t}from"./app.65ba7c0f.js";const v='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/Illustration-V8/V8-compilation-pipeline/12_delay-parse.md"}',e={},r=t("",1),_=[r];function c(o,s,p,u,n,d){return a(),i("div",null,_)}var f=l(e,[["render",c]]);export{v as __pageData,f as default};

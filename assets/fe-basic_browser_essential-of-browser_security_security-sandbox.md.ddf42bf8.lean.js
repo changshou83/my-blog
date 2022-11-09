@@ -1,0 +1,1 @@
+import{_ as i,c as l,o as e,a as t}from"./app.48dfb21b.js";const m='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/essential-of-browser/security/security-sandbox.md"}',s={},a=t("",1),r=[a];function _(o,c,n,u,d,f){return e(),l("div",null,r)}var P=i(s,[["render",_]]);export{m as __pageData,P as default};

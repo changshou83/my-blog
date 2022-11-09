@@ -1,0 +1,1 @@
+import{_ as l,c as e,o,a as t}from"./app.48dfb21b.js";const f='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/Illustration-V8/eventloop-and-gc/22_common-memory-problem.md"}',i={},_=t("",1),r=[_];function a(c,s,n,m,u,d){return o(),e("div",null,r)}var T=l(i,[["render",a]]);export{f as __pageData,T as default};

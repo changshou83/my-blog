@@ -1,1 +1,0 @@
-import{_ as i,c as l,o as e,a as t}from"./app.65ba7c0f.js";const h='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/Illustration-V8/JS-design-idea/06_scope-chain.md"}',_={},a=t("",1),o=[a];function s(c,r,n,d,p,u){return e(),l("div",null,o)}var m=i(_,[["render",s]]);export{h as __pageData,m as default};

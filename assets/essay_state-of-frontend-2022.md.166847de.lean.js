@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as e,a as t}from"./app.48dfb21b.js";const S='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"essay/state-of-frontend-2022.md"}',a={},o=t("",2),r=[o];function n(s,u,c,_,d,p){return e(),i("div",null,r)}var f=l(a,[["render",n]]);export{S as __pageData,f as default};

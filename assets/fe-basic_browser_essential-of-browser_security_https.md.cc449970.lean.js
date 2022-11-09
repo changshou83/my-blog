@@ -1,0 +1,1 @@
+import{_ as l,c as i,o as e,a as r}from"./app.48dfb21b.js";const A='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/essential-of-browser/security/https.md"}',t={},u=r("",1),a=[u];function s(o,n,c,_,d,m){return e(),i("div",null,a)}var T=l(t,[["render",s]]);export{A as __pageData,T as default};

@@ -1,1 +1,0 @@
-import{_ as i,c as l,o as e,a as t}from"./app.65ba7c0f.js";const f='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"MOOC/threejs-journey/03 Advanced techniques/Code-Structuring-for-Bigger-Projects.md"}',r={},o=t("",1),s=[o];function c(n,a,_,u,d,p){return e(),l("div",null,s)}var g=i(r,[["render",c]]);export{f as __pageData,g as default};

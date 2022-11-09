@@ -1,1 +1,0 @@
-import{_ as e,c as i,o as t,a as l}from"./app.65ba7c0f.js";const T='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/essential-of-browser/extra/5 main\u6307\u6807.md"}',a={},r=l("",1),o=[r];function s(n,c,_,u,d,p){return t(),i("div",null,o)}var g=e(a,[["render",s]]);export{T as __pageData,g as default};

@@ -1,1 +1,0 @@
-import{_ as l,c as i,o as t,a}from"./app.65ba7c0f.js";const v='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"fe-basic/browser/Illustration-V8/eventloop-and-gc/20-21_gc.md"}',e={},u=a("",1),r=[u];function _(c,o,n,s,p,d){return t(),i("div",null,r)}var f=l(e,[["render",_]]);export{v as __pageData,f as default};

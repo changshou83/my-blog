@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as t,a as _}from"./app.65ba7c0f.js";const f='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"MOOC/Docker for Beginner/09\u5BB9\u5668\u96C6\u8FD0\u7AD9.md"}',r={},c=_("",2),i=[c];function a(l,n,s,d,p,k){return t(),o("div",null,i)}var u=e(r,[["render",a]]);export{f as __pageData,u as default};

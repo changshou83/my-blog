@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./app.48dfb21b.js";const m='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"MOOC/threejs-journey/03 Advanced techniques/23 Imported models.md"}',o={};function a(s,n,c,_,d,i){return r(),t("div")}var l=e(o,[["render",a]]);export{m as __pageData,l as default};
